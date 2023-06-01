@@ -1,11 +1,26 @@
+
+
+.intro{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.id,.name{
+    font-weight: 900;
+    font-size: 28px;
+}
+span{
+    font-style: italic;
+}
+
+
 .table-1,
-.table-2{
+.table-2 {
   border: 1px solid rgb(24, 23, 23);
   width: 30%;
   margin: 5px auto;
 }
-.table-2{
-    width: 50%;
+.table-2 {
+  width: 50%;
 }
 
 .student-info-heading,
@@ -14,38 +29,52 @@
 .enter-roll,
 .input-area,
 .info-btn,
-.common-borde{
+.common-borde {
   border: 1px solid rgb(24, 23, 23);
 }
-.student-info-heading{
-    padding: 10px 15px;
-    background-color: green;
+.student-info-heading {
+  padding: 10px 15px;
+  background-color: green;
 }
 /* all centering class is here  */
-.center-class{
-    text-align: center;
+.center-class {
+  text-align: center;
 }
 
-.show-info-btn{
-    background-color: red;
-    border-radius: 8px;
+.show-info-btn {
+  background-color: red;
+  border-radius: 8px;
 }
 
-.welcome-section{
-    border: 1px solid burlywood;
-    background-color: burlywood;
-    width: 40%;
-    margin: 100px auto;
-    
+.welcome-section {
+  border: 1px solid burlywood;
+  background-color: burlywood;
+  width: 40%;
+  margin: 100px auto;
+  border-radius: 8px;
 }
-.form{
-    padding: 10px 40px;
-    margin: 25px auto;
-    width: 75%;
-    border: 1px solid beige;
-    background-color: bisque;
+.form {
+  margin: 25px auto;
+  width: 75%;
+  border: 1px solid beige;
+  background-color: bisque;
+  border-radius: 8px;
 }
-form{
-    width: 40%;
-    margin: 20px auto;
+form {
+  width: 40%;
+  margin: 20px auto;
+}
+.login-input {
+  margin-top: 5px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+}
+.login-btns {
+    font-weight: bold;
+ border: none;
+ width: 70%;
+  border-radius: 8px;
+  padding: 10px 8px;
 }
