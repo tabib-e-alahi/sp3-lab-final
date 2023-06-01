@@ -47,6 +47,7 @@ span{
 }
 
 .welcome-section {
+    box-shadow: burlywood 0px 0px 40px 0px;
   border: 1px solid burlywood;
   background-color: burlywood;
   width: 40%;
